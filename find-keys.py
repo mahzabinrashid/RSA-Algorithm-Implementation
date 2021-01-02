@@ -14,7 +14,7 @@ possible_e = []
 
 
 def find_e(x):
-    for y in range(1, x):
+    for y in range(2, x):
         if gcd(y, x) == 1:
             possible_e.append(y)
     return possible_e
