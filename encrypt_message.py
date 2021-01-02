@@ -10,5 +10,4 @@ if plaintext > n:
     print("You can only encrypt messages whose integer representation is less than n.")
 else:
     c = pow(plaintext, e, n)
-
-print('Encrypted message = ' + str(c))
+    print('Encrypted message = ' + str(c))
